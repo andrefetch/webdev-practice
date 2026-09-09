@@ -8,6 +8,7 @@
         border-radius: 4px;
         margin-right: 8px;
         cursor: pointer;
+        transition: background-color 0.15s;
     }
 
     .bootstrap-download-btn {
@@ -20,7 +21,18 @@
         height: 36px;
         width: 120px;
         cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
     }
+
+    .bootstrap-get-started-btn:hover {
+        background-color: rgb(112, 68, 177);
+    }
+
+    .bootstrap-download-btn:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+
 </style>
 
 <button class="bootstrap-get-started-btn">Get started</button>
