@@ -1,0 +1,21 @@
+p {
+    font-family: Montserrat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.car-model {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.car-desc {
+    text-align: center;
+    font-size: 18px;
+}
+
+.desc-underline {
+    text-decoration: underline;
+}
