@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Layout Practice</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .profile-card {
+            width: 400px;
+            display: flex;
+            align-items: center;
+        }
+
+        .pfp-area {
+            display: inline-block;
+        }
+
+        .profile-pic {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            object-position: left;
+            border-radius: 180px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        .user-info {
+            margin-left: 15px;
+            display: inline-block;
+        }
+
+        .name,
+        .bio,
+        .status {
+            vertical-align: top;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        .bio {
+            font-weight: 500;
+            color: grey;
+            
+        }
+
+        .status {
+            font-weight: 500;
+            color: grey;
+            font-size: 14px;
+            padding-top: 5px;
+        }
+
+        .follow-btn {
+            color: white;
+            background-color: #3975E3;
+            border: none;
+            border-radius: 4px;
+            padding: 6px 10px;
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <div class="pfp-area">
+            <img class="profile-pic" src="cat.jpg">
+        </div>
+        <div class="user-info">
+            <p class="name">oliver</p>
+            <p class="bio">the cat</p>
+            <p class="status">Popular</p>
+        </div>
+        <button class="follow-btn">Follow</button>
+    </div>
+</body>
+</html>
